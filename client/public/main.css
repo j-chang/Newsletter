@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=============================================
+Containers
+=============================================*/
+
+#container-view {
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  background-color: #FCB2B2;
+  background-image: linear-gradient( #FCB2B2 70%, #FF6F6F );
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 481px) {
+  .container {
+    border-radius: 6px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .container {
+    width: 30%;
+    min-height: 50%;
+  }
+
+  #testimonials {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*=============================================
+Headers
+=============================================*/
+
+.header {
+  font-family: Arial;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/*=============================================
+Paragraph
+=============================================*/
+
+.paragraph {
+  font-family: Arial;
+  font-size: 1em;
+  font-weight: 200;
+  margin-top: 18px;
+  margin-bottom: 44px;
+}
+
+/*=============================================
+Buttons
+=============================================*/
+
+#newsletter-btn {
+  font-family: Arial;
+  font-size: 1em;
+  font-weight: 300;
+  color: blue;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 18px;
+}
+
+#newsletter-btn:hover {
+  text-decoration: underline;
+}
+
+#testimonials-btn {
+  position: absolute;
+  bottom: 0;
+  background-color: #0000FF;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+#testimonials-btn h3 {
+  font-family: Arial;
+  font-size: .8em;
+  color: #FFFFFF;
+}
+
+#signup-btn {
+  background-color: #FFA500;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+#signup-btn h3 {
+  font-family: Arial;
+  font-size: .8em;
+  color: #FFFFFF;
+}
+
+/*=============================================
+Blockquote
+=============================================*/
+
+.blockquote {
+  border-left: 4px solid black;
+  margin-top: 12px;
+  margin-bottom: 52px;
+  padding-left: 12px;
+}
+
+.blockquote p {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-size: 1em;
+}
+
+.blockquote span {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 1em;
+}
+
+/*=============================================
+Table
+=============================================*/
+
+table {
+  width: 100%;
+}
+
+col {
+  width: 33.3%;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.plan-name {
+  font-family: Arial;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.details {
+  font-family: Arial;
+  font-size: 1em;
+}
+
+.section {
+  margin-top: 14px;
+}
+
+.section span {
+  line-height: 2;
+}
+
+.section div {
+  margin-top: 6px;
+}
